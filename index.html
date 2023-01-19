@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Randomy</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <section id = "main">
+        <div class="row">
+            <div class="container1">
+                <div>
+                    <h1 class="Title">Random Password Generator</h1>
+                </div>
+                <div>
+                    <input class = "output" type="text" value="Output" id="result">
+                </div>
+            </div>
+            <div class="container2">
+                <div>
+                    Symbols
+                    <input id = "myCheck" type="checkbox">
+                </div>
+                <div class="slidecontainer">
+                    <input type="range" min="4" max="16" value="8" class="slider" id="myRange">
+                    <div id="Output">
+                        10
+                    </div>
+                  </div>
+            </div>
+            <div>
+                <button class ="button" id="myBtn" type="button">Submit</button>
+                <button class= "button" onclick="copy2clip()">Copy to clipboard</button>
+                
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
